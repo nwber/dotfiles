@@ -10,6 +10,7 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 - [ghostty](https://github.com/ghostty-org)
 - [fx-100](https://berkeleygraphics.com/products/FX-100/)
 - [fish](https://github.com/fish-shell/fish-shell)
+- [tmux](https://github.com/tmux/tmux/wiki)
 - [lazyvim](https://github.com/LazyVim/LazyVim)
 - [btop](https://github.com/aristocratos/btop)
 - [fzf](https://github.com/junegunn/fzf)
@@ -30,7 +31,9 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 
 ## windows
 - [powertoys](https://github.com/microsoft/PowerToys)
+- [terminal](https://github.com/microsoft/terminal) 
 
 ## other
 - [excalidraw](https://excalidraw.com/)
+- [obsidian](https://obsidian.md/)
 - [tailscale](https://tailscale.com/)
