@@ -19,7 +19,7 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 - [docker](https://www.docker.com/)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/)
 - [kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
-- k3s
+- [k3s](https://k3s.io/)
 - [rancher desktop](https://github.com/rancher-sandbox/rancher-desktop/)
 - [awscli](https://github.com/aws/aws-cli)
 - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
