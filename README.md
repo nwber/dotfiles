@@ -26,6 +26,7 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 - [go](https://go.dev/dl/)
 - [sst](https://github.com/sst/ion)
 - [k9s](https://k9scli.io/)
+- [yaak](https://yaak.app/) or [bruno](https://www.usebruno.com/)
 
 ## windows
 - [powertoys](https://github.com/microsoft/PowerToys)
