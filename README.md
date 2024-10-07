@@ -40,7 +40,6 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 - [k3s](https://k3s.io/)
 - [rancher desktop](https://github.com/rancher-sandbox/rancher-desktop/)
 - [kdash](https://github.com/kdash-rs/kdash)
-- 
 - [awscli](https://github.com/aws/aws-cli)
 - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [go](https://go.dev/dl/)
