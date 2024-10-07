@@ -15,6 +15,23 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 - [btop](https://github.com/aristocratos/btop)
 - [fzf](https://github.com/junegunn/fzf)
 - [fastfetch](https://github.com/fastfetch-cli/fastfetch)
+- [httpstat](https://github.com/davecheney/httpstat)
+- [ctop](https://github.com/bcicen/ctop)
+- [gping](https://github.com/orf/gping?tab=readme-ov-file)
+- [bandwhich](https://github.com/imsnif/bandwhich)
+- [ripgrep](https://github.com/BurntSushi/ripgrep)
+- [jq](https://jqlang.github.io/jq/)
+- [just](https://github.com/casey/just)
+- [hyperfine](https://github.com/sharkdp/hyperfine)
+- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
+- [bat](https://github.com/sharkdp/bat)
+- [aria2](https://aria2.github.io/)
+- [duf](https://github.com/muesli/duf)
+- [zoxide](https://github.com/ajeetdsouza/zoxide)
+- [cowsay](https://github.com/piuccio/cowsay)
+- [wttr.in](https://github.com/chubin/wttr.in)
+- [dog](https://github.com/ogham/dog)
+- 
 
 ### dev/admin tools
 - [docker](https://www.docker.com/)
@@ -22,6 +39,8 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 - [kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
 - [k3s](https://k3s.io/)
 - [rancher desktop](https://github.com/rancher-sandbox/rancher-desktop/)
+- [kdash](https://github.com/kdash-rs/kdash)
+- 
 - [awscli](https://github.com/aws/aws-cli)
 - [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 - [go](https://go.dev/dl/)
