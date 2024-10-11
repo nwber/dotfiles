@@ -5,33 +5,33 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 ## linux/macos
 
 ### terminal utilities
-- [git](https://git-scm.com/downloads)
-- [brew](https://brew.sh/)
-- [ghostty](https://github.com/ghostty-org)
-- [fx-100](https://berkeleygraphics.com/products/FX-100/)
-- [fish](https://github.com/fish-shell/fish-shell)
-- [tmux](https://github.com/tmux/tmux/wiki)
-- [lazyvim](https://github.com/LazyVim/LazyVim)
-- [btop](https://github.com/aristocratos/btop)
-- [fzf](https://github.com/junegunn/fzf)
-- [fastfetch](https://github.com/fastfetch-cli/fastfetch)
-- [httpstat](https://github.com/davecheney/httpstat)
-- [ctop](https://github.com/bcicen/ctop)
-- [gping](https://github.com/orf/gping?tab=readme-ov-file)
-- [bandwhich](https://github.com/imsnif/bandwhich)
-- [ripgrep](https://github.com/BurntSushi/ripgrep)
-- [jq](https://jqlang.github.io/jq/)
-- [just](https://github.com/casey/just)
-- [hyperfine](https://github.com/sharkdp/hyperfine)
-- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy)
-- [bat](https://github.com/sharkdp/bat)
-- [aria2](https://aria2.github.io/)
-- [duf](https://github.com/muesli/duf)
-- [zoxide](https://github.com/ajeetdsouza/zoxide)
-- [cowsay](https://github.com/piuccio/cowsay)
-- [wttr.in](https://github.com/chubin/wttr.in)
-- [dog](https://github.com/ogham/dog)
-- 
+- [git](https://git-scm.com/downloads) source control
+- [brew](https://brew.sh/) package manager
+- [ghostty](https://github.com/ghostty-org) terminal
+- [fx-100](https://berkeleygraphics.com/products/FX-100/) font
+- [fish](https://github.com/fish-shell/fish-shell) shell
+- [starship](https://starship.rs/) shell prompt
+- [tmux](https://github.com/tmux/tmux/wiki) terminal multiplexer
+- [lazyvim](https://github.com/LazyVim/LazyVim) neovim for people with a life
+- [btop](https://github.com/aristocratos/btop) better `top`
+- [fzf](https://github.com/junegunn/fzf) cli fuzzy finder
+- [fastfetch](https://github.com/fastfetch-cli/fastfetch) for flexing specs
+- [httpstat](https://github.com/davecheney/httpstat) curl with colors
+- [ctop](https://github.com/bcicen/ctop) `top` for containers
+- [gping](https://github.com/orf/gping?tab=readme-ov-file) 
+- [bandwhich](https://github.com/imsnif/bandwhich) terminal bandwidth visualizer  
+- [ripgrep](https://github.com/BurntSushi/ripgrep) better `grep`
+- [jq](https://jqlang.github.io/jq/) json query
+- [just](https://github.com/casey/just) command runner
+- [hyperfine](https://github.com/sharkdp/hyperfine) cli benchmarks
+- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) better diffs
+- [bat](https://github.com/sharkdp/bat) better `cat`
+- [aria2](https://aria2.github.io/) better `wget`
+- [duf](https://github.com/muesli/duf) better `df`
+- [zoxide](https://github.com/ajeetdsouza/zoxide) better `cd`
+- [cowsay](https://github.com/piuccio/cowsay) it's a cow
+- [wttr.in](https://github.com/chubin/wttr.in) cli weather app
+- [dog](https://github.com/ogham/dog) better `dig`
 
 ### dev/admin tools
 - [docker](https://www.docker.com/)
@@ -49,7 +49,10 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 
 ## windows
 - [powertoys](https://github.com/microsoft/PowerToys)
-- [terminal](https://github.com/microsoft/terminal) 
+- [terminal](https://github.com/microsoft/terminal)
+- windirstat 
+- 7zip
+- mremoteng
 
 ## other
 - [excalidraw](https://excalidraw.com/)
