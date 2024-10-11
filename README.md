@@ -37,7 +37,7 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 - [docker](https://www.docker.com/)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/)
 - [kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
-- [k3s](https://k3s.io/)
+- [k3d](https://k3d.io/v5.7.4/)
 - [rancher desktop](https://github.com/rancher-sandbox/rancher-desktop/)
 - [kdash](https://github.com/kdash-rs/kdash)
 - [awscli](https://github.com/aws/aws-cli)
