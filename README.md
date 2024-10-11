@@ -7,7 +7,7 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 ### terminal utilities
 - [git](https://git-scm.com/downloads) source control
 - [brew](https://brew.sh/) package manager
-- [ghostty](https://github.com/ghostty-org) terminal
+- [ghostty](https://github.com/ghostty-org) terminal or [iterm2](https://formulae.brew.sh/cask/iterm2) for now
 - [fx-100](https://berkeleygraphics.com/products/FX-100/) font
 - [fish](https://github.com/fish-shell/fish-shell) shell
 - [starship](https://starship.rs/) shell prompt
