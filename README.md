@@ -8,7 +8,7 @@ this is inspired by [ninite](https://ninite.com/) but more like a checklist than
 - [git](https://git-scm.com/downloads) source control
 - [brew](https://brew.sh/) package manager
 - [ghostty](https://github.com/ghostty-org) terminal or [iterm2](https://formulae.brew.sh/cask/iterm2) for now
-- [fx-100](https://berkeleygraphics.com/products/FX-100/) font
+- [fx-100](https://berkeleygraphics.com/products/FX-100/) or [monaspace](https://github.com/githubnext/monaspace) font
 - [fish](https://github.com/fish-shell/fish-shell) shell
 - [starship](https://starship.rs/) shell prompt
 - [tmux](https://github.com/tmux/tmux/wiki) terminal multiplexer
