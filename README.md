@@ -1,58 +1,115 @@
 # config
 
-this is inspired by [ninite](https://ninite.com/) but more like a checklist than automation tool
+Keeping things consistent and easy for myself
 
-## linux/macos
+## Mac
 
-### terminal utilities
-- [git](https://git-scm.com/downloads) source control
-- [brew](https://brew.sh/) package manager
-- [ghostty](https://github.com/ghostty-org) terminal or [iterm2](https://formulae.brew.sh/cask/iterm2) for now
+### Prerequisite manual installs
+```
+# Brew
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+### Install packages
+```bash
+# CLI tools
+brew install fish jq yq tmux starship font-fira-code
+
+# Utils
+brew install aria2 bat dog duf fzf fastfetch ripgrep diff-so-fancy zoxide
+
+# Monitoring tools
+brew install bandwhich btop ctop gping httpstat hyperfine 
+
+# Dev tools
+brew install awscli docker kubeadm k3d rancher_desktop kdash npm go sst k9s bruno visual-studio-code uv python3
+
+# Funsies
+brew install cowsay
+```
+
+### Config files
+fish
+```
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+    alias k=kubectl
+    alias cls=clear
+    alias zx=zoxide
+    alias duf=df
+    alias lash="ls -lash"
+    alias pip=pip3
+    alias python=python3
+    alias py=python3
+    fzf --fish | source
+    starship init fish | source
+end
+  
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+```
+
+starship
+```toml
+#system
+[battery]
+full_symbol = '🔋 '
+charging_symbol = '⚡️ '
+discharging_symbol = '💀 '
+
+[[battery.display]]
+threshold = 20
+style = 'bold red'
+
+[character]
+success_symbol = '[➜](bold green) '
+error_symbol = '[➜](bold red) '
+
+[directory]
+truncation_length = 3
+truncation_symbol = '…/'
+
+#languages
+[nodejs]
+format = '[🤖 $version](bold green) '
+disabled = true
+
+[golang]
+format = '[$symbol($version )($mod_version )]($style)'
+disabled = true
+
+[terraform]
+format = '[🌎 $version]($style) '
+
+#applications
+[aws]
+format = 'on [$symbol($profile )($region )]($style)'
+style = 'bold blue'
+symbol = '☁️ '
+
+[git_status]
+conflicted = '🏳'
+ahead = '🏎💨'
+behind = '😰'
+diverged = '😵'
+up_to_date = '✓'
+untracked = '🤷'
+stashed = '📦'
+modified = '📝'
+staged = '[++\($count\)](green)'
+renamed = '👅'
+deleted = '🗑'
+
+[kubernetes]
+format = 'on [⛵ ($user on )($cluster in )$context \($namespace\)](dimmed green) '
+disabled = false
+contexts = [
+  { context_pattern = "dev.local.cluster.k8s", style = "green", symbol = "💔 " },
+]
+```
+
+### Other manual installs
+https://ghostty.org/download
 - [fx-100](https://berkeleygraphics.com/products/FX-100/) or [monaspace](https://github.com/githubnext/monaspace) or [firacode](https://formulae.brew.sh/cask/font-fira-code) font
-- [fish](https://github.com/fish-shell/fish-shell) shell
-- [starship](https://starship.rs/) shell prompt
-- [tmux](https://github.com/tmux/tmux/wiki) terminal multiplexer
-- [lazyvim](https://github.com/LazyVim/LazyVim) neovim for people with a life
-- [btop](https://github.com/aristocratos/btop) better `top`
-- [fzf](https://github.com/junegunn/fzf) cli fuzzy finder
-- [fastfetch](https://github.com/fastfetch-cli/fastfetch) for flexing specs
-- [httpstat](https://github.com/davecheney/httpstat) curl with colors
-- [ctop](https://github.com/bcicen/ctop) `top` for containers
-- [gping](https://github.com/orf/gping?tab=readme-ov-file) 
-- [bandwhich](https://github.com/imsnif/bandwhich) terminal bandwidth visualizer  
-- [ripgrep](https://github.com/BurntSushi/ripgrep) better `grep`
-- [jq](https://jqlang.github.io/jq/) json query
-- [just](https://github.com/casey/just) command runner
-- [hyperfine](https://github.com/sharkdp/hyperfine) cli benchmarks
-- [diff-so-fancy](https://github.com/so-fancy/diff-so-fancy) better diffs
-- [bat](https://github.com/sharkdp/bat) better `cat`
-- [aria2](https://aria2.github.io/) better `wget`
-- [duf](https://github.com/muesli/duf) better `df`
-- [zoxide](https://github.com/ajeetdsouza/zoxide) better `cd`
-- [cowsay](https://github.com/piuccio/cowsay) it's a cow
-- [wttr.in](https://github.com/chubin/wttr.in) cli weather app
-- [dog](https://github.com/ogham/dog) better `dig`
-
-### dev/admin tools
-- [docker](https://www.docker.com/)
-- [kubectl](https://kubernetes.io/docs/tasks/tools/)
-- [kubeadm](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/)
-- [k3d](https://k3d.io/v5.7.4/)
-- [rancher desktop](https://github.com/rancher-sandbox/rancher-desktop/)
-- [kdash](https://github.com/kdash-rs/kdash)
-- [awscli](https://github.com/aws/aws-cli)
-- [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
-- [go](https://go.dev/dl/)
-- [sst](https://github.com/sst/ion)
-- [k9s](https://k9scli.io/)
-- [yaak](https://yaak.app/) or [bruno](https://www.usebruno.com/)
-
-## windows
-- [powertoys](https://github.com/microsoft/PowerToys)
-- [terminal](https://github.com/microsoft/terminal)
-- windirstat 
-- 7zip
-- mremoteng
 
 ## other
 - [excalidraw](https://excalidraw.com/)
