@@ -19,10 +19,10 @@ brew install fish jq yq tmux starship font-fira-code
 brew install aria2 bat dog duf fzf fastfetch ripgrep diff-so-fancy zoxide
 
 # Monitoring tools
-brew install bandwhich btop ctop gping httpstat hyperfine 
+brew install bandwhich btop ctop gping httpstat hyperfine nvtop
 
 # Dev tools
-brew install awscli docker kubeadm k3d rancher_desktop kdash npm go sst k9s bruno visual-studio-code uv python3
+brew install awscli docker kubeadm k3d rancher_desktop npm go sst bruno visual-studio-code uv python3
 
 # Funsies
 brew install cowsay
