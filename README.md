@@ -13,7 +13,7 @@ Keeping things consistent and easy for myself
 ### Install packages
 ```bash
 # CLI tools
-brew install fish jq yq tmux starship font-fira-code
+brew install fish jq yq tmux starship font-fira-code vhs
 
 # Utils
 brew install aria2 bat dog duf fzf fastfetch ripgrep diff-so-fancy zoxide
