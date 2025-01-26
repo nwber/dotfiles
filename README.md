@@ -41,11 +41,14 @@ if status is-interactive
     alias pip=pip3
     alias python=python3
     alias py=python3
+    alias pip=uv
+    alias pip3=uv
+    alias terraform=tofu
+    alias tfinit="tofu init"
+    alias tfip="tfinit & tofu plan"
     fzf --fish | source
     starship init fish | source
 end
-  
-test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 ```
 
 starship
