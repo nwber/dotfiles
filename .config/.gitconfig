@@ -1,0 +1,5 @@
+[user]
+	email = nwbergeron@gmail.com
+	name = Nick Bergeron
+[push]
+	autoSetupRemote = true
