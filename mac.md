@@ -31,6 +31,6 @@ brew install cowsay
 
 ## Other manual installs and tools
 
-- [fx-100](https://berkeleygraphics.com/products/FX-100/) - this font is :chefs_kiss:
+- [TX-02](https://usgraphics.com/products/berkeley-mono/) - this font is :chefs_kiss:
 
-- [tailscale](https://pkgs.tailscale.com/stable/#macos)
+- [Tailscale](https://pkgs.tailscale.com/stable/#macos)
